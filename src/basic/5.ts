@@ -12,5 +12,3 @@ const isWeekend = (day: DayOfWeek): boolean => {
 return day === DayOfWeek.Saturday || day === DayOfWeek.Sunday;
 };
 
-const today = DayOfWeek.Saturday;
-console.log(`Чи сьогодні вихідний?`, isWeekend(today)); // Виведе: true

@@ -1,15 +1,3 @@
-// interface Page {
-//   title: string;
-//   likes: number;
-//   accounts: string[];
-//   status: 'open' | 'close';
-//   details?: {
-//     createAt: Date;
-//     updateAt: Date;
-//   };
-// }
-
-// Або як type:
 type Page = {
   title: string;
   likes: number;
@@ -32,14 +20,11 @@ const page1: Page = {
   },
 };
 
-console.log(page1.title); // Виведе: The awesome page
 
 const page2: Page = {
   title: 'Python or Js',
   likes: 5,
   accounts: ['Alex'],
   status: 'close',
-  // details тут не потрібне
 };
 
-console.log(page2.title); // Виведе: The awesome page

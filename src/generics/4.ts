@@ -6,7 +6,6 @@ type User = {
 };
 
 function createOrUpdateUser<T extends Partial<User>>(initialValues: T): void {
-  // Оновлення користувача
 }
 
 
